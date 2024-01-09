@@ -1,0 +1,128 @@
+* {
+  
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  float: left;
+  background: linear-gradient(217deg, #3caeee 1.5%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(38deg, #ee3cd1 0%, rgba(217, 217, 217, 0) 99.04%);
+  width: 65%;
+  height: 100%;
+}
+.page {
+  position: relative;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  height: 100%;
+}
+.page span{
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left :10px;
+}
+.page h2 {
+  color: #575dfb;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+.page h6 {
+  color: #887d7d;
+  position: absolute;
+  font-size: 16px;
+  letter-spacing: -0.176px;
+  font-weight: 400;
+  left: 60px;
+  top: 87px;
+}
+.page h3 {
+  position: absolute;
+  left: 86px;
+  top: 150px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.176px;
+}
+.input-group  {
+  position: absolute;
+  left: 70px;
+  top: 165px;
+  width: 350px;
+}
+.password h3 {
+  position: absolute;
+  left: 86px;
+  top: 235px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.176px;
+}
+.input-group1 {
+  position: absolute;
+  left: 70px;
+  top: 250px;
+  width: 350px;
+}
+.confirm-password h3 {
+  position: absolute;
+  left: 86px;
+  top: 325px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.176px;
+}
+.input-group2 {
+  position: absolute;
+  left: 70px;
+  top: 340px;
+  width: 350px;
+}
+.btn{
+  border-radius: 16px;
+background: #575DFB;
+  position: absolute;
+  top: 430px;
+  left: 85px;
+  width: 320px;
+}
+
+.login h3{
+  position: absolute;
+  top:490px;
+  left:110px;
+  color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.176px;
+}
+.login a{
+  position: absolute;
+  top:486px;
+  left:275px;
+  color: #575DFB;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .page.main.input-group{
+    width: 100%;
+  }
+}
